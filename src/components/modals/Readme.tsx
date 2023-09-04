@@ -7,35 +7,20 @@ const Readme: FC<ReadmeProps> = ({}) => {
   return (
     <Frame boxShadow="in" bg="white" className="readme">
       <div>
-        <h1 style={{ marginTop: 0 }}>🇳🇬🇿🇼🇬🇭 ATTENTION 🇬🇭🇿🇼🇳🇬</h1>
+        <h1 style={{ marginTop: 0 }}> ATTENTION </h1>
         <p>
-          This website is a community contribution made with love by Monero
-          Mandela -- world acclaimed autist, retard, visionary, and
-          philanthropist.
+          $GLIZZY is revolutionizing the NPC live streaming market! 
+          @GLIZZYBOT TIKTOK
+          
+          https://twitter.com/glizzyerc
         </p>
         <p>
-          If sers like this contribution, the Honorable Monero Mandela will
-          accept tokens of appreciation in $MONERO or $BITCOIN only. No
-          shitcoins.
-        </p>
-        <p>
-          Pls sers feed ma familia. Mandela seeks your generous contributions
-          for downpayment on new mudhut in outskirts of Nairobi, and maybe for
-          some droogs.
-        </p>
-        <p>
-          Donation Address:{" "}
+          $GLIZZY :{" "}
           <a
-            className="dontaion"
-            href="https://etherscan.io/address/0x8da6a95a3fcda0ad05185876a40cce0568a3c155"
+            className="$GLIZZY"
+            href="https://www.dextools.io/app/en/ether/pair-explorer/0x8a41306495cb6245f416c4b351936a34d16162c7"
           >
-            0x8da6a95a3fcda0ad05185876a40cce0568a3c155
-          </a>
-        </p>
-        <p>
-          Github repository:{" "}
-          <a href="https://github.com/monero-mandela/monero-web">
-            https://github.com/monero-mandela/monero-web
+            https://www.dextools.io/app/en/ether/pair-explorer/0x8a41306495cb6245f416c4b351936a34d16162c7
           </a>
         </p>
       </div>

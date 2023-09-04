@@ -2,9 +2,7 @@ import React, { useEffect } from "react";
 import { Alert, Button } from "@react95/core";
 import { useClippy } from "@react95/clippy";
 import Layout from "./components/Layout";
-import gayFrogsSfx from "./assets/mp3/gay-frogs.mp3";
 import yRUGaySfx from "./assets/mp3/why-are-you-gay.mp3";
-const gayFrogsSound = new Audio(gayFrogsSfx);
 const yRUGaySound = new Audio(yRUGaySfx);
 
 function App() {
@@ -37,14 +35,14 @@ function App() {
           </div>
           <p>An error has occured. To continue:</p>
           <p>
-            Click "I AM GAY" below and press Enter to return to your desktop,
+            Click "$GLIZZY" below and press Enter to return to your desktop,
             or:
           </p>
           <p>
             Press CTRL+ALT+DEL to restart your computer. But be warned, doing so
-            has a chance to initiate anal probe.
+            has a chance to initiate GLIZZY OVERDRIVE.
           </p>
-          <p>Error: 69 : 420 : 5UP3RG4Y</p>
+          <p>Error: 69 : 420 : $6L1ZZY</p>
           <p style={{ textAlign: "center" }}>Click to continue:</p>
           <div
             style={{
@@ -58,10 +56,10 @@ function App() {
               onClick={async () => {
                 toggleFakeGayShown(false);
                 toggleBsod(false);
-                await gayFrogsSound.play();
+                
               }}
             >
-              I AM GAY
+              $GLIZZY ME
             </Button>
           </div>
         </div>
@@ -74,20 +72,20 @@ function App() {
       {bsod && <BSOD />}
       {fakeGayShown && (
         <Alert
-          title="Do you accept the truth?"
+          title="$GLIZZY"
           style={{ zIndex: 5 }}
-          message="Moon landing, fake and gay or real?"
+          message="DO YOU WANT GLIZZY OVERDRIVE!"
           closeAlert={() => toggleFakeGayShown(false)}
           buttons={[
             {
-              value: "FAKE & GAY",
+              value: "YES",
               onClick: async () => {
-                await gayFrogsSound.play();
-                toggleFakeGayShown(false);
+              
+              
               },
             },
             {
-              value: "REAL",
+              value: "GLIZZY",
               onClick: async () => {
                 await yRUGaySound.play();
                 toggleBsod(true);
